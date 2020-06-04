@@ -1,0 +1,130 @@
+body{
+  font-family: Montserrat ;
+}
+  #title{
+  background-color:white;
+  
+}
+
+.container-fluid{
+  padding: 5% 15% ;
+}
+a{
+  color:#f0a500 ;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat -bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat -bold";
+  font-size: 1.5rem;
+}
+p{
+color: #888888;
+}
+/* Navigation bar */
+ .navbar{
+  padding: 0;
+}
+
+.navbar-brand{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+  padding:0 5px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: goldenrod;
+}
+
+.nav-link{
+  font-weight: bold;
+}
+.row{
+margin-top: 50px;
+} 
+.col-lg-8{
+  padding-right: 80px;
+}
+
+/* Feature section */
+#features{
+  padding: 1% 15%;
+  background-color:#f9f6f7 ;
+  color: #000;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon1{
+  color:#f37121; 
+}
+.icon2{
+  color:#79d70f;  
+}
+.icon3{
+  color:#035aa6;
+}
+
+.icon1:hover
+{
+  color:#f0a500; 
+}
+.icon2:hover{
+  color:#ccda46;  
+}
+.icon3:hover{
+  color:#4d80e4;
+}
+
+/* .imgclass{
+ width: 86px;
+ height: 86px;
+ 
+} */
+#products{
+  text-align: center;
+  background-color:#f0a500 ;
+  color: #fff;
+}
+.product-img1{
+  width: 30%;
+ }
+.carousel-item{
+  padding: 1% 15%;
+}
+.product-text{
+  font-size: 2rem;
+  padding: 7% 15%;
+}
+.sub-p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+#footer{  
+  text-align: center;
+  background-color: #f9f6f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
